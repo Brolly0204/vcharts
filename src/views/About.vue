@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <chart/>
+    <Amap/>
   </div>
 </template>
+
+<script>
+import Chart from '@/components/Chart'
+import Amap from '@/components/Amap'
+
+export default {
+  components: {
+    Chart,
+    Amap
+  }  
+}
+</script>
